@@ -1,0 +1,125 @@
+QUESATION 1:-   Are the HTML tag and elements same things?  
+
+ANSWER=  HTML Tags Vs Elements Technically, an HTML element is the collection of start tag, its              attributes, an end tag and everything in between. On the other hand an HTML tag  is used to mark the start or end of an element. Some HTML tags do not have end tags like <img> hence in those cases HTML element will consist of start tag + content. 
+
+QUESATION 2:-  what are tags and attributes in HTML? 
+
+ANSWER=  An HTML tag is commonly defined as a set of characters constituting a formatted command for a Web page. At the core of HTML, tags provide the directions or recipes for the visual content that one sees on the Web. The beginning tag consists of the name, optionally followed by one or more attributes, whereas the ending tag consists of the same name preceded by a forward slash ("/"). For example, the HTML tag "<p>" begins a paragraph, whereas "</p>" ends that paragraph. This is a consistent syntax in HTML. 
+
+QUESATION 2:-what are void elements in html? 
+
+ANSWER= There is a special group of elements that only have start tags and does not contain any content within it, these elements are called void elements. Void elements doesn’t have ending tags and can only have attributes but do not contain any kind of content. These elements can have backslash before ending of start tag but that is completely optional. Example of such elements are <br>, <hr>, <img>, <input>, <link>, <base>, <meta>, <param>, <area>, <embed>, <col>, <track>, <source> etc. 
+
+QUESATION 3:- What are HTML Entities? 
+
+NSWER= An HTML entity is a piece of text ("string") that begins with an ampersand (&) and ends with a semicolon (;). Entities are frequently used to display reserved characters (which would otherwise be interpreted as HTML code), and invisible characters (like non-breaking spaces). 
+
+QUESATION 4:- What are different types of lists in HTML? 
+
+ANSWER= There are three types of lists in HTML − 
+
+unordered list <ul> 
+
+This list has bullets list items with no specific order. 
+
+ordered list <ol> 
+
+This list is used for ordered list items 
+
+definition list <dl> 
+
+This list is used to display definitions for terms. 
+
+QESATION 5:- What is the ‘class’ attribute in HTML? 
+
+ANSWER= The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name. 
+
+QUESATION 6:- HTML id Attribute: The id attribute is a unique identifier which is used to specify the document. It is used by CSS and JavaScript to perform a certain task for a unique element. In CSS, the id attribute is written using # symbol followed by id. 
+
+HTML class Attribute: The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name. The class name in CSS stylesheet using “.” symbol. 
+
+QUESATION 7:- What are the various formatting tags in HTML? 
+
+ANSWER =- As we know, HTML provides many predefined elements that are used to change the formatting of text. The formatting can be used to set the text styles (like – bold, italic, or emphasized, etc.), ,  
+
+highlighting the text, making text superscript and subscript, etc. 
+
+QUESATION 8:- How is Cell Padding different from Cell Spacing? 
+
+ANSWER= Cellpadding: 
+
+Cellpadding - specifies the space between the border of a table cell and its contents (i.e) it defines the whitespace between the cell edge and the content of the cell. 
+
+Cellspacing - specifies the space between cells (i.e) it defines the whitespace between the edges of the adjacent cells. 
+
+QUESATION 9:- How can we club two or more rows or columns into a single row or column in an HTML table? 
+
+ANSWER= You can merge two or more table cells in a column using the colspan attribute in a <td> HTML tag (table data). To merge two or more row cells, use the rowspan attribute. 
+
+QUESATION 10:- What is the difference between a block-level element and an inline element? 
+
+ANSWER= A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element., ,  
+
+A block-level element always takes up the full width available (stretches out to the left and right as far as it can). 
+
+Inline Element :An inline element does not start on a new line. 
+
+An inline element only takes up as much width as necessary. 
+
+QUESATION 11:- How to create a Hyperlink in HTML? 
+
+ANSWER= To make a hyperlink in an HTML page, use the <a> and </a> tags, which are the tags used to define the links. The <a> tag indicates where the hyperlink starts and the </a> tag indicates where it ends. 
+
+QUESATION 12:- What is the use of an iframe tag? 
+
+ANSWER= The <iframe> tag specifies an inline frame., ,  
+
+An inline frame is used to embed another document within the current HTML document. 
+
+QUESATION 13:- What is the use of a span tag? Explain with example? 
+
+ANSWER= The <span> tag is an inline container used to mark up a part of a text, or a part of a document., ,  
+
+The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. 
+
+The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element. 
+
+Example :- A <span> element which is used to color a part of a text: <p>My mother has <span style="color:blue">blue</span> eyes.</p> 
+
+QUESATION 14:- How to insert a picture into a background image of a web page? 
+
+ANSWER= To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property. 
+
+QUESATION 15:- How are active links different from normal links? 
+
+ANSWER= The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link. 
+
+QUESATION 16:- What are the different tags to separate sections of text? 
+
+ANSWER= Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. , ,  
+
+Those that don’t have a mouse cursor over that link is considered a normal link. 
+
+QUESATION 17:- What is SVG? 
+
+ANSWER= SVGs are graphics built using vectors. For the uninitiated, a vector is an element with a specific magnitude and direction. In theory, you can generate almost any type of graphics you want using a collection of vectors., ,  
+
+Take this image of a blue rectangle with a black border and shadow. 
+
+QUESATION 18:- What is difference between HTML and XHTML? 
+
+ANSWER= It can be considered as a part of the XML markup language this is because of XHTML have features of both XML and HTML. , ,  
+
+XHTML is extended from XML and HTML. 
+
+Difference between HTML and XHTML : 
+
+	HTML - HTML stands for Hypertext Markup Language. 
+
+XHTML - XHTML stands for Extensible Hypertext Markup Language. 
+
+OUEATION 19:- What are logical and physical tags in HTML? 
+
+ANSWER= Logical tags describe the behaviour, nature of content for the text enclosed inside the tag. They represent the function of text on the page. , ,  
+
+Physical tags are used to decide the appearance of the text and do not provide any information about the text
